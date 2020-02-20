@@ -1,11 +1,10 @@
-# ivanmpl.github.io
+# ivanmpl.github.io 
 
-Repository and GitHub hosted web page
+Repository and GitHub page: [ivanmpl.github.io](https://ivanmpl.github.io/)
 
 ## About
 
-Hello! My name is Ivan, and welcome to my homepage.
-On this web site you will find my programming projects, various writings, and random work.
+On my web site you will find my programming projects, various writings and random work.
 
 ## Built With
 
