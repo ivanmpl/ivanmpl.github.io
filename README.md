@@ -1,11 +1,10 @@
-# ivanmpl.github.io
+# ivanmpl.github.io 
 
-Repository and GitHub hosted web page
+GitHub Page: [ivanmpl.github.io](https://ivanmpl.github.io/)
 
 ## About
 
-Hello! My name is Ivan, and welcome to my homepage.
-On this web site you will find my programming projects, various writings, and random work.
+On my web site you will find my programming projects, various writings and random work.
 
 ## Built With
 
@@ -16,7 +15,3 @@ On this web site you will find my programming projects, various writings, and ra
 ## Authors
 
 * Ivan
-
-## License
-
-This project is licensed under the MIT License
