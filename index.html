@@ -2,14 +2,55 @@
 <html>
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>My GitHub Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./styles/style.css">
+    <title>ivanmpl.github.io</title>
 </head>
 
 <body>
-    <h1>My GitHub Page</h1>
-    <div id="like_button_container"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://ivanmpl.github.io/">ivanmpl.github.io</a>
+        <a class="navbar-brand" href="https://github.com/ivanmpl">GitHub</a>
+    </nav>
+
+    <main role="main" class="container">
+
+        <div class="header-template">
+            <h1>ivanmpl.github.io</h1>
+            <p class="lead">A web page for my programming projects, various writings and miscellaneous snippets.</p>
+        </div>
+
+        <article class="forecast">
+            <h1>Weather forecast for Seattle</h1>
+            <article class="day-forecast">
+                <h2>03 March 2018</h2>
+                <p>Rain.</p>
+            </article>
+            <article class="day-forecast">
+                <h2>04 March 2018</h2>
+                <p>Periods of rain.</p>
+            </article>
+            <article class="day-forecast">
+                <h2>05 March 2018</h2>
+                <p>Heavy rain.</p>
+            </article>
+        </article>
+
+        <div id="like_button_container"></div>
+
+    </main><!-- /.container -->
+
+    <!-- Custom javascript -->
     <script src="scripts/main.js"></script>
 
     <!-- Load React. -->
