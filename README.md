@@ -13,7 +13,7 @@ On my web page you will find my programming projects, various writings and rando
 * Javascript
 * jQuery
 * Bootstrap
-* React
+* Reactjs
 
 ## Authors
 
