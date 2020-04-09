@@ -7,10 +7,10 @@
             "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/rational"
         },
         {
-            "title": "Rational Arithmetic",
-            "date": "2018-01-15",
-            "content": "A rational number is any number that can be expressed as the quotient or fraction p/q of two integers, p and q, with the denominator q, not equal to zero. This project demonstrates simple arithmetic with user input and demonstrates overloaded operators and class use",
-            "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/rational"
+            "title": "Fibonacci Numbers",
+            "date": "2018-01-16",
+            "content": "The Fibonacci numbers are numbers characterized by the fact that every number after the first two is the sum of the two preceding ones.",
+            "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/random/bubble_sort.cpp"
         }
     ]
 }

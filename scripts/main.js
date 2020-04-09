@@ -1,19 +1,18 @@
 $(document).ready(function () {
 
-    // Your code here.
-    console.log("welcome");
-
     $.getJSON("https://raw.githubusercontent.com/ivanmpl/ivanmpl.github.io/master/datastore/posts.json", function (data) {
-        console.log("success");
-        var items = [];
-        $.each(data, function (key, val) {
-            items.push("<li id='" + key + "'>" + val + "</li>");
-        });
 
-        $("<ul/>", {
-            "class": "my-new-list",
-            html: items.join("")
-        }).appendTo("body");
+        $.each(data.posts, function (index, item) {
+            // add post to html dom
+            addPost(item);
+        });
     });
 
 });
+
+function addPost(post) {
+    $("<article/>", {
+        "class": "post-list",
+        html: (post.title + "<br>" + post.date + "<br>" + post.content + "<br>" + "<a href=" + post.link + ">Implementation on Github </a>" + "<br>" + "<br>")
+    }).appendTo(".blog-post-section");
+}

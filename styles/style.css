@@ -3,7 +3,13 @@
     text-align: center;
   }
   
-.blog-template {
+.blog-post-section {
   padding: 3rem 1.5rem;
   text-align: left;
+}
+
+#enable {
+  background-color:white;
+  border-color:white;
+  color:white;
 }
