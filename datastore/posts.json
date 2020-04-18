@@ -11,6 +11,12 @@
             "date": "2018-01-16",
             "content": "The Fibonacci numbers are numbers characterized by the fact that every number after the first two is the sum of the two preceding ones.",
             "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/random/bubble_sort.cpp"
+        },
+        {
+            "title": "Primality Test",
+            "date": "2018-02-10",
+            "content": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. I implemented a simple test, to determine if a number is prime. I will expand on optimization and proof around this test down the line.",
+            "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/primes/prime_test.cpp"
         }
     ]
 }
