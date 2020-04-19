@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 function addPost(post) {
     $("<article/>", {
-        "class": "post-list",
-        html: (post.title + "<br>" + post.date + "<br>" + post.content + "<br>" + "<a href=" + post.link + ">Implementation on Github </a>" + "<br>" + "<br>")
+        "class": "blog-post",
+        html: ("<h2>" + post.title + "</h2>" + "<h5>" + new Date(post.date) + "</h5>" + "<p>" + post.content + "</p>" + "<p>" + "<a href=" + post.link + ">Implementation on Github </a>" + "</p>")
     }).appendTo(".blog-post-section");
 }
