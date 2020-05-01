@@ -1,15 +1,21 @@
 {
     "posts": [
         {
-            "title": "Rational Arithmetic",
-            "date": "2018-01-15",
-            "content": "A rational number is any number that can be expressed as the quotient or fraction p/q of two integers, p and q, with the denominator q, not equal to zero. This project demonstrates simple arithmetic with user input and demonstrates overloaded operators and class use.",
-            "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/rational"
+            "title": "Guess Number",
+            "date": "2018-10-30",
+            "content": "Simple game of guess number with arbitrary upper bound.",
+            "link": "https://github.com/ivanmpl/projects/blob/master/python/random/guess_number.py"
         },
         {
-            "title": "Fibonacci Numbers",
-            "date": "2018-01-16",
-            "content": "The Fibonacci numbers are numbers characterized by the fact that every number after the first two is the sum of the two preceding ones.",
+            "title": "Semantic Versioning",
+            "date": "2018-07-27",
+            "content": "Implementation of Semantic Versioning, as specified by semver.org. The module provides the following functionality: A convenient data type for semantic versions, in which major, minor, patch, pre-release, and metadata can all be separately accessed.A way to parse semver strings (the strings described in the specification into your semver data type. A way to convert your semver data type into semver strings. Comparison functions or operators that implement precedence, as described in the specification.In particular, two versions should be equal if and only if they have equal precedence.",
+            "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/semantic"
+        },
+        {
+            "title": "Bubble Sort",
+            "date": "2018-04-19",
+            "content": "Bubble Sort is a simple sorting algorithm, comparing adjacent elements and swapping if out of order. Average case Big O (n^2),Best Case Big O (n)(sorted).",
             "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/random/bubble_sort.cpp"
         },
         {
@@ -19,16 +25,16 @@
             "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/primes/prime_test.cpp"
         },
         {
-            "title": "Bubble Sort",
-            "date": "2018-04-19",
-            "content": "Bubble Sort is a simple sorting algorithm, comparing adjacent elements and swapping if out of order. Average case Big O (n^2),Best Case Big O (n)(sorted).",
+            "title": "Fibonacci Numbers",
+            "date": "2018-01-16",
+            "content": "The Fibonacci numbers are numbers characterized by the fact that every number after the first two is the sum of the two preceding ones.",
             "link": "https://github.com/ivanmpl/projects/blob/master/cplusplus/random/bubble_sort.cpp"
         },
         {
-            "title": "Semantic Versioning",
-            "date": "2018-07-27",
-            "content": "Implementation of Semantic Versioning, as specified by semver.org. The module provides the following functionality: A convenient data type for semantic versions, in which major, minor, patch, pre-release, and metadata can all be separately accessed.A way to parse semver strings (the strings described in the specification into your semver data type. A way to convert your semver data type into semver strings. Comparison functions or operators that implement precedence, as described in the specification.In particular, two versions should be equal if and only if they have equal precedence.",
-            "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/semantic"
+            "title": "Rational Arithmetic",
+            "date": "2018-01-15",
+            "content": "A rational number is any number that can be expressed as the quotient or fraction p/q of two integers, p and q, with the denominator q, not equal to zero. This project demonstrates simple arithmetic with user input and demonstrates overloaded operators and class use.",
+            "link": "https://github.com/ivanmpl/projects/tree/master/cplusplus/rational"
         }
     ]
 }
