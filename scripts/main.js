@@ -14,6 +14,6 @@ $(document).ready(function () {
 function addPost(post) {
     $("<article/>", {
         "class": "blog-post",
-        html: ("<h2>" + post.title + "</h2>" + "<h5>" + (new Date(post.date).getMonth() + 1) + "/" + new Date(post.date).getDate() + "/" + new Date(post.date).getFullYear() + "</h5>" + "<p>" + post.content + "</p>" + "<p>" + "<a href=" + post.link + ">Implementation on Github </a>" + "</p>")
+        html: ("<h2>" + post.title + "</h2>" + "<h5>" + (new Date(post.date).getMonth() + 1) + "/" + new Date(post.date).getDate() + "/" + new Date(post.date).getFullYear() + "</h5>" + "<p>" + post.content + "</p>" + "<p>" + "<a href=" + post.link + ">Source Code </a>" + "</p>")
     }).appendTo(".blog-post-section");
 }
