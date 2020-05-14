@@ -1,6 +1,12 @@
 {
     "posts": [
         {
+            "title": "String Reversal",
+            "date": "2019-09-20",
+            "content": "String reversal implementations with different time and space complexity.",
+            "link": "https://github.com/ivanmpl/projects/blob/master/python/random/reverse_string.py"
+        },
+        {
             "title": "Guess Number",
             "date": "2018-10-30",
             "content": "Simple game of guess number with arbitrary upper bound.",
